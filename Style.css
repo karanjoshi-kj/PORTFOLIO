@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+     position: fixed;
+     top: 20px;
+     left: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
+.profile .logo{
+    background: purple;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: bold;
+}
+
+.profile .name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navabar{
+    position: fixed;
+    right: 8px;
+    top: 50%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 20px;
+}
+
+.navabar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.navabar ul li{
+   margin: 15px 0;
+}
+.navabar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.contact-btn a{
+    background: purple;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
