@@ -5,71 +5,66 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.body{
+navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    height: 2.5vmax;
+    width: 100%;
+    /* top: 4%; */
+    padding: 2vmax;
     align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.navabar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 5vmax;
 }
 
 .profile{
-     position: fixed;
-     top: 20px;
-     left: 20px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 10px;
+    position: relative;
+    left: 20px;
+    display: flex;
+    gap: 12px;
 }
 
 .profile .logo{
     background: purple;
     color: #fff;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    display: flex;
-     justify-content: center;
-     align-items: center;
-     font-weight: bold;
+    height: 28px;
+    width: 26px;
+    border-radius: 100%;
+    font-weight: bold;
 }
 
 .profile .name{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .navabar{
-    position: fixed;
-    right: 8px;
-    top: 50%;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     gap: 20px;
-}
-
-.navabar ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
-
-.navabar ul li{
-   margin: 15px 0;
+    position: relative;
+    right: 30px;
+    
 }
 .navabar ul li a{
     text-decoration: none;
-    color: black;
     font-size: 16px;
+    color: black;
+    font-weight: bolder;
 }
-
-.contact-btn a{
-    background: purple;
+.navabar ul li a:hover{
+    color: violet;
+    background-color: #dbd7d7;
+}
+    
+.navabar .contact-btn a{
+    background: rgb(153, 41, 251);
     color: #fff;
-    padding: 8px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+    border-radius: 7px;
     font-weight: bold;
-
+    padding: 12px;
 }
