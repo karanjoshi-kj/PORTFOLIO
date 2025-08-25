@@ -1,70 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
-navbar{
+body {
+
+    background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #da4df166 5%, #0000 30%), radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);
+    font-family: var(--primary-font-regular);
+}
+
+
+:root {
+    --color-primary: #9929fb;
+    --color-primary-dark: #650fa0;
+    --color-soft-white: #f0f1f3;
+    --color-soft-darkwhite: #d9d9d9;
+    --color-soft-dark: #87909d;
+    --color-soft-ex-dark: #525252;
+    --primary-font-regular: "roboto", Sans-serif;
+    --secondary-font: "ubuntu", Sans-serif;
+    --font-size-regular: 16px;
+    --font-size-regular-small: 14px;
+    --font-size-regular-ex-small: 12px;
+    --font-size-regular-large: 18px;
+    --font-size-regular-ex-large: 20px;
+
+}
+
+.parentcontainer {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    height: 2.5vmax;
-    width: 100%;
-    /* top: 4%; */
-    padding: 2vmax;
     align-items: center;
-    background-color: rgb(236, 236, 236);
+    height: 6vmax;
+    background-color: whitesmoke;
+    position: sticky;
 }
 
-.navabar ul {
+.profile {
+
     display: flex;
-    justify-content: space-evenly;
+    position: relative;
+    left: 4vmax;
+}
+
+.nav-links {
+    position: relative;
+    right: 4vmax;
+    font-size: var(--font-size-regular-ex-small);
+
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 2vmax;
+}
+
+.nav-links ul li {
     list-style: none;
-    gap: 5vmax;
 }
 
-.profile{
-    position: relative;
-    left: 20px;
-    display: flex;
-    gap: 12px;
-}
-
-.profile .logo{
-    background: purple;
-    color: #fff;
-    height: 28px;
-    width: 26px;
-    border-radius: 100%;
-    font-weight: bold;
-}
-
-.profile .name{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.navabar{
-    position: relative;
-    right: 30px;
-    
-}
-.navabar ul li a{
+.nav-links ul li a {
+    padding: 6px;
     text-decoration: none;
-    font-size: 16px;
-    color: black;
-    font-weight: bolder;
+    color: var(--color-soft-ex-dark);
 }
-.navabar ul li a:hover{
-    color: violet;
-    background-color: #dbd7d7;
-}
-    
-.navabar .contact-btn a{
-    background: rgb(153, 41, 251);
-    color: #fff;
-    border-radius: 7px;
-    font-weight: bold;
-    padding: 12px;
+
+/* Hover Effects in Links */
+
+.nav-links ul li a:hover {
+    background-color: var(--color-soft-darkwhite);
+    color: var(--color-primary);
+    border-radius: 4px;
+    transition: all ease-in-out;
+
 }
