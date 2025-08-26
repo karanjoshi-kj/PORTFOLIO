@@ -82,3 +82,10 @@ nav {
     transition: all ease-in-out;
 
 }
+
+.contact-btn a {
+    color: white;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    padding: 10px;
+}
