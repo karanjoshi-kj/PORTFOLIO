@@ -85,8 +85,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 7vmax;
-
-
 }
 
 .intro-data {
@@ -106,7 +104,6 @@ nav {
 }
 
 .profileImg img {
-
     height: inherit;
 }
 
