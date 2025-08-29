@@ -140,6 +140,23 @@ nav {
     font-weight: bold;
 }
 
+.stats{
+    display: flex;
+    justify-content: center;
+}
+.stat{
+     background-color: rgb(246, 235, 254);
+     padding: 4vmax 20px; 
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     font-family: var(--secondary-font);
+}
+
+.superscript{
+    font-size: 20px;
+}
+
 /* .content {
     max-width: 500px;
 
