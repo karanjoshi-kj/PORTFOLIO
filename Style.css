@@ -90,6 +90,7 @@ nav {
 .intro-data {
     height: 90vh;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -143,14 +144,22 @@ nav {
 .stats{
     display: flex;
     justify-content: center;
+    margin-right: 9vmax;
 }
 .stat{
      background-color: rgb(246, 235, 254);
-     padding: 4vmax 20px; 
+     padding: 2vmax 8px; 
      display: flex;
+     box-sizing: border-box;
+     justify-content: center;
+     align-items: center;
      flex-direction: column;
      gap: 10px;
+     height: 7vmax;
+     width: 15vmax;
      font-family: var(--secondary-font);
+    margin: 5px;
+    border-radius: 15px 0 15px 0;
 }
 
 .superscript{
