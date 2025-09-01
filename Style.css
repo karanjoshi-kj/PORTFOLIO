@@ -1,10 +1,3 @@
-.parentcontainer {
-    width: 100%;
-    height: 150vh;
-    background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #da4df166 5%, #0000 30%), radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);
-
-}
-
 /* -----------------NavBar CSS--------------- */
 nav {
     display: flex;
@@ -113,10 +106,10 @@ nav {
     font-family: var(--secondary-font);
 }
 
-.dec-remove{
+.dec-remove {
     text-decoration: none;
-    padding: 15px 25px ;
-   
+    padding: 15px 25px;
+
 }
 
 .content>h1 {
@@ -141,28 +134,29 @@ nav {
     font-weight: bold;
 }
 
-.stats{
+.stats {
     display: flex;
     justify-content: center;
     margin-right: 9vmax;
 }
-.stat{
-     background-color: rgb(246, 235, 254);
-     padding: 2vmax 8px; 
-     display: flex;
-     box-sizing: border-box;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     gap: 10px;
-     height: 7vmax;
-     width: 15vmax;
-     font-family: var(--secondary-font);
+
+.stat {
+    background-color: rgb(246, 235, 254);
+    padding: 2vmax 8px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 7vmax;
+    width: 15vmax;
+    font-family: var(--secondary-font);
     margin: 5px;
     border-radius: 15px 0 15px 0;
 }
 
-.superscript{
+.superscript {
     font-size: 20px;
 }
 
@@ -173,19 +167,6 @@ nav {
 } */
 
 
-.main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.sociallinks ul{
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 20px;
-  padding-bottom: 80px;
-}
 
 /* .content {
     max-width: 500px;
