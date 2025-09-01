@@ -166,6 +166,27 @@ nav {
     font-size: 20px;
 }
 
+/* .profileImg img {
+  width: 450px; 
+  border-radius: 15px; 
+  margin-bottom: 20px; 
+} */
+
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sociallinks ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+
 /* .content {
     max-width: 500px;
 
