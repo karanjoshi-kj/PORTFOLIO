@@ -1,0 +1,21 @@
+.SecondSectionContainer {
+  height: 110vh;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  top: 5vmax;
+  left: 2vmax;
+  border-radius: 1.5vmax;
+  margin: 2vmax;
+  box-shadow: 0 0 15px var(--color-soft-darkwhite);
+
+}
+
+
+.sociallinks ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  padding-bottom: 80px;
+}
