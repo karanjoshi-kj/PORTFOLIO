@@ -90,7 +90,7 @@ nav {
 
 .profileImg {
     box-sizing: border-box;
-    width: 50%;
+    width: 41vmax;
     height: 100vh;
     background-color: white;
     border-radius: 25px;
