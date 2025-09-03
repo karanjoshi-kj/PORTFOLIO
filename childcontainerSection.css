@@ -10,33 +10,52 @@
   margin: 2vmax;
   box-shadow: 0 0 15px var(--color-soft-darkwhite);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-
+  padding: 8vmax;
 }
 
-
-/* .sociallinks ul {
+.leftsect {
   display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 20px;
-  padding-bottom: 80px;
+  flex-direction: column;
+  align-items: center;
 }
-*/
+
 .profileImg1 {
   box-sizing: border-box;
   width: 100%;
   height: 75vh;
-  background-color: var(--color-soft-white);
-  border-radius: 25px;
-  box-shadow: 0px 0px 20px var(--color-soft-darkwhite);
+  background-color: var(--color--white);
+  border-radius: 15px;
+
 }
 
 .profileImg1 img {
   height: inherit;
 }
+
+.sociallinks {
+
+  position: relative;
+  background-color: white;
+  padding: 2vmax 1vmax;
+  top: -3vmax;
+  border-radius: 8px;
+  width: 70%;
+  box-shadow: 0px 0px 10px var(--color-soft-dark);
+}
+
+.sociallinks ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+  font-size: 1.5vmax;
+
+}
+
+
 
 /*
 .Experinces {
