@@ -214,6 +214,74 @@ nav {
     border-color: rgba(0, 128, 255, 0.429);;
 }
 
+.ThirdSectionContainer{
+    background-color:  #8a8a88;
+}
+
+.worksdone h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.worksdone{
+    flex: 1;
+}
+
+.worksdone p{
+    padding-top: 30px;
+    line-height: 22px;
+      font-size: var(--font-size-regular-large);
+    /* font-size: 16px; */
+    color: var(--color-soft-ex-dark);
+    margin-bottom: 20px;
+}
+
+.working{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5vmax;
+}
+ 
+.card{
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.15);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 6px 15px rgb(0, 0, 0, 0.15);;
+}
+
+.processfeatures{
+    flex: 1;
+    display: grid;
+    gap: 2vmax;
+}
+
+.card h3{
+    /* margin-top: 0; */
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.card p{
+    color: #555;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card i{
+    font-size: 22px;
+    color: #6c63ff;
+}
+
+
 
 /* .profileImg img {
   width: 450px; 
