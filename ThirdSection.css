@@ -1,7 +1,20 @@
+.ThirdSectionContainer {
+    position: relative;
+    top: 25vmax;
+    margin: 2vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 8vmax;
+}
+
+
 .worksdone h1 {
     font-size: 40px;
     padding-bottom: 20px;
 }
+
 
 .worksdone {
     flex: 1;
