@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ThirdSectionContainer{
   height: 100vh;
   width: 90%; 
@@ -18,10 +19,14 @@
 
 
 .worksdone h1{
+=======
+.worksdone h1 {
+>>>>>>> e11d957d17639db995f0b6035266a65f63ba9b2c
     font-size: 40px;
     padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .worksdone{
     flex: 1;
 }
@@ -30,19 +35,38 @@
     padding-top: 30px;
     line-height: 22px;
       font-size: var(--font-size-regular-large);
+=======
+.worksdone {
+    flex: 1;
+}
+
+.worksdone p {
+    padding-top: 30px;
+    line-height: 22px;
+    font-size: var(--font-size-regular-large);
+>>>>>>> e11d957d17639db995f0b6035266a65f63ba9b2c
     /* font-size: 16px; */
     color: var(--color-soft-ex-dark);
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .working{
+=======
+.working {
+>>>>>>> e11d957d17639db995f0b6035266a65f63ba9b2c
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 5vmax;
 }
+<<<<<<< HEAD
  
 .card{
+=======
+
+.card {
+>>>>>>> e11d957d17639db995f0b6035266a65f63ba9b2c
     background: #fff;
     border-radius: 12px;
     padding: 20px;
@@ -53,30 +77,54 @@
     gap: 10px;
 }
 
+<<<<<<< HEAD
 .card:hover{
     box-shadow: 0 6px 15px rgb(0, 0, 0, 0.15);;
 }
 
 .processfeatures{
+=======
+.card:hover {
+    box-shadow: 0 6px 15px rgb(0, 0, 0, 0.15);
+    ;
+}
+
+.processfeatures {
+>>>>>>> e11d957d17639db995f0b6035266a65f63ba9b2c
     flex: 1;
     display: grid;
     gap: 2vmax;
 }
 
+<<<<<<< HEAD
 .card h3{
+=======
+.card h3 {
+>>>>>>> e11d957d17639db995f0b6035266a65f63ba9b2c
     /* margin-top: 0; */
     color: #333333;
     margin-bottom: 8px;
 }
 
+<<<<<<< HEAD
 .card p{
+=======
+.card p {
+>>>>>>> e11d957d17639db995f0b6035266a65f63ba9b2c
     color: #555;
     font-size: 14px;
     line-height: 20px;
 }
 
+<<<<<<< HEAD
 .card i{
     font-size: 22px;
     color: #6c63ff;
 }
 
+=======
+.card i {
+    font-size: 22px;
+    color: #6c63ff;
+}
+>>>>>>> e11d957d17639db995f0b6035266a65f63ba9b2c
