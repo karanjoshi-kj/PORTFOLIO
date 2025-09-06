@@ -37,6 +37,8 @@
 }
 
 .card {
+    position: absolute;
+    width: 50vmax;
     background: #fff;
     border-radius: 12px;
     padding: 20px;
@@ -49,7 +51,6 @@
 
 .card:hover {
     box-shadow: 0 6px 15px rgb(0, 0, 0, 0.15);
-    ;
 }
 
 .processfeatures {
