@@ -7,6 +7,7 @@
     align-items: center;
     box-sizing: border-box;
     padding: 8vmax;
+
 }
 
 
@@ -36,30 +37,58 @@
     gap: 5vmax;
 }
 
-.card {
-    background: #fff;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.15);
-    transition: 0.3s;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.card:hover {
-    box-shadow: 0 6px 15px rgb(0, 0, 0, 0.15);
-    ;
-}
-
 .processfeatures {
     flex: 1;
     display: grid;
-    gap: 2vmax;
+    gap: 2.5vmax;
+    margin-left: 2vmax;
+
+
+}
+
+.feature1 {
+    display: flex;
+    gap: 1.5vmax;
+}
+
+.feature2 {
+    display: flex;
+    gap: 1.5vmax;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1vmax;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vmax;
+    width: 18vmax;
+    position: relative;
+    height: 16vmax;
+    justify-content: center;
+}
+
+.card:hover {
+    box-shadow: 0 6px 40px rgb(0, 0, 0, 0.15);
+
+
+}
+
+.c1 {
+    bottom: 1.5vmax;
+}
+
+.c3 {
+    bottom: 2vmax;
+}
+
+.c4 {
+    bottom: 1vmax;
 }
 
 .card h3 {
-    /* margin-top: 0; */
     color: #333333;
     margin-bottom: 8px;
 }
@@ -71,6 +100,20 @@
 }
 
 .card i {
-    font-size: 22px;
-    color: #6c63ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vmax;
+    color: var(--color-primary);
+    background-color: var(--color-primary-light);
+    width: 3.5vmax;
+    height: 3.5vmax;
+    border-radius: 5px;
+    padding: 1vmax;
+    margin-bottom: 1.5vmax;
+}
+
+.card:hover .i-hover {
+    color: rgb(255, 255, 255);
+    background-color: var(--color-primary-dark);
 }
