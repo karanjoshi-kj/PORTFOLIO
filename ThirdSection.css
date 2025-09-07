@@ -42,8 +42,6 @@
     display: grid;
     gap: 2.5vmax;
     margin-left: 2vmax;
-
-
 }
 
 .feature1 {
@@ -57,8 +55,6 @@
 }
 
 .card {
-    position: absolute;
-    width: 50vmax;
     background: #fff;
     border-radius: 12px;
     padding: 1vmax;
@@ -70,13 +66,14 @@
     position: relative;
     height: 16vmax;
     justify-content: center;
+    line-height: 22px;
+    font-size: var(--font-size-regular-large);
+    letter-spacing: 0.5px;
+    color: var(--color-soft-ex-dark)
 }
 
 .card:hover {
     box-shadow: 0 6px 40px rgb(0, 0, 0, 0.15);
-
-
-    box-shadow: 0 6px 15px rgb(0, 0, 0, 0.15);
 }
 
 .c1 {

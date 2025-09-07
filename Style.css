@@ -423,11 +423,11 @@ nav {
    cursor: pointer;
 }
 
-.cv-btn:hover{
-    background: rgba(0, 128, 255, 0.429);
-    color: #fff;
-    border-color: rgba(0, 128, 255, 0.429);;
+.cv-btn:hover {
+   color: purple;
+   border-color: purple;
 }
+
 
 
 
