@@ -16,6 +16,21 @@ nav {
     left: 4vmax;
 }
 
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.logo img{
+    box-sizing: border-box;
+    width: 12vmax;
+    height: 12vmax;
+    
+}
+
+
 .nav-links {
     position: relative;
     right: 4vmax;
