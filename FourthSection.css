@@ -28,7 +28,7 @@
   display: flex;
   gap: 30px;
   padding-left: 200px;
-  margin-top: 400px;
+  margin-bottom: 350px;
 }
 
 .myworks > div {
@@ -44,15 +44,3 @@
   width: 100%;
 }
 
-.myworks h1 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 18px;
-  color: #2b6fb3;
-}
-
-.myworks p {
-  font-size: 14px;
-  color: #444;
-  line-height: 1.6;
-}
