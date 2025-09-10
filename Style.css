@@ -51,6 +51,7 @@ nav {
 }
 
 .nav-links ul li a {
+    font-size: 19px;
     padding: 6px;
     text-decoration: none;
     color: var(--color-soft-ex-dark);
@@ -152,23 +153,9 @@ nav {
     display: flex;
     justify-content: center;
     margin-right: 9vmax;
+    padding: 10px 0 10px 0;
 }
 
-.stat {
-    background-color: rgb(246, 235, 254);
-    padding: 2vmax 8px;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    height: 7vmax;
-    width: 15vmax;
-    font-family: var(--secondary-font);
-    margin: 5px;
-    border-radius: 15px 0 15px 0;
-}
 
 .superscript {
     font-size: 20px;
@@ -370,7 +357,7 @@ nav {
 }
 
 .stat {
-    background-color: rgb(246, 235, 254);
+    background-color: rgb(222, 190, 246);
     padding: 2vmax 8px;
     display: flex;
     box-sizing: border-box;

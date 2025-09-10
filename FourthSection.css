@@ -8,21 +8,22 @@
 /* Portfolio heading + para */
 .recentWORKS {
   text-align: center;
-  margin-top: 50vmax;
+  margin: 25vmax 0 0 0;
   padding-left: 20vmax;
 }
 
-.recentWORKS h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
+ .recentWORKS h1 {
+  font-size: 50px;
+  margin-bottom:3vmax;
   color: #1d3557;
 }
 
 .recentWORKS p {
-  font-size: 16px;
+  margin-bottom: 8vmax;
+  font-size: 25px;
   color: #555;
-  line-height: 1.6;
-}
+  line-height: 1.2;
+} 
 
 .myworks {
   display: flex;
@@ -42,5 +43,10 @@
   padding: 30px;
   min-height: 220px;
   width: 100%;
+}
+
+.work2{
+  display: flex;
+  
 }
 
