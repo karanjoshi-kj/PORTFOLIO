@@ -1,12 +1,12 @@
 .ThirdSectionContainer {
+    width: 100%;
     position: relative;
     top: 25vmax;
-    margin: 2vmax;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 8vmax;
+    padding: 10vmax;
 }
 
 
