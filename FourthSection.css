@@ -30,13 +30,15 @@
   color: var(--color-soft-darkwhite);
   bottom: 6vmax;
   z-index: -1;
+  font-weight: bold;
 }
 
 .recentWORKS p {
-
-  font-size: 25px;
+  margin-top: -7vmax;
+  font-size: var(--font-size-regular-large);
   color: #555;
   line-height: 1.2;
+  margin-bottom: 4vmax;
 }
 
 .myworks {
@@ -55,10 +57,14 @@
   border-radius: 10px;
   padding: 30px;
   min-height: 220px;
-  width: 15vmax;
+  width: 25vmax;
 }
 
-.work2 {
+.work1 {
   display: flex;
 
+}
+
+.work1 img {
+  width: inherit;
 }
