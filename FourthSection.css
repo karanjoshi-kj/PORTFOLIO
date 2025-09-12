@@ -80,6 +80,7 @@
 
 .work-content {
   padding: 1vmax;
+
 }
 
 .work-content h2 {
@@ -124,3 +125,6 @@
   padding-left: .5rem;
   transition: cubic-bezier(.4, 0, .2, 1);
 }
+
+
+
