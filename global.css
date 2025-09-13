@@ -31,7 +31,7 @@ body {
     --color-primary-dark: #650fa0;
     --color-soft-white: #f0f1f3;
     --color--white: #f7f7f7;
-
+    --color-gray-primary: oklch(.21 .034 264.665);
     --color-soft-darkwhite: #d9d9d9;
     --color-soft-dark: #87909d;
     --color-soft-ex-dark: #525252;
