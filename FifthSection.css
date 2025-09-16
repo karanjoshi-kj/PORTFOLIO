@@ -1,16 +1,18 @@
 .fifthclasscontainer {
-  margin-bottom: 60vmax;
   background: #f8f8ff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 80vmax;
-  height: 65vmax;
-  margin-left: 9vmax;
-  border-radius: 2%;
+  box-shadow: 10px 10px 50px rgba(6, 5, 5, 0.1);
+  width: 85%;
+  height: 50vh;
+  border-radius: 1vmax;
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20vmax 10vmax;
+  margin-top: 55vmax;
+  position: relative;
+  top: 5vmax;
 }
 
 .fifthpage-contents {

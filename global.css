@@ -12,6 +12,10 @@ body {
     font-family: var(--primary-font-regular);
     box-sizing: border-box;
     background-color: var(--color-soft-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .parentcontainer {
