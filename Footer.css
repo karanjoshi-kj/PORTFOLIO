@@ -10,33 +10,20 @@
 }
 
 .profile-data {
+    margin-top: 9vmax;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .footericon img {
+    margin-right: 10vmax;
     filter: invert(100);
     transform: scale(1.5);
 }
 
-.avatar {
-    width: 50px;
-    height: 50px;
-    background-color: #5a3cf7;
-    color: #fff;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.name {
-    font-size: 30px;
-    color: #000;
-}
 
 .footer-left {
     display: flex;
@@ -50,7 +37,8 @@
 }
 
 .footer-center ul {
-    padding-right: 15vmax;
+    justify-content: space-evenly;
+    padding-right: 18vmax;
     list-style: none;
     display: flex;
     gap: 2vmax;
@@ -66,3 +54,4 @@
 .footer-right p {
     font-size: 1.1vmax;
 }
+

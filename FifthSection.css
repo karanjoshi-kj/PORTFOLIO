@@ -23,11 +23,12 @@
 
 
 .left-part {
-  margin-top: 6vmax;
+  margin-bottom: 3vmax;
 }
 
 .contact-page p {
   padding-top: 1vmax;
+  color: var(--color-soft-darkwhite);
 }
 
 .icon-box {
@@ -41,6 +42,8 @@
   margin-right: 15px;
   font-size: 20px;
 }
+
+
 
 .left-part h1 {
   font-size: 2vmax;
@@ -56,11 +59,19 @@
 
 .info-item h3 {
   font-size: 1vmax;
-  color: #9f9a9a;
+  color: #9f9a9a; 
   margin-bottom: 0.1vmax;
 }
 
-.social-links ul {
+ .icon-box{
+    background: rgb(251, 233, 236);
+}
+
+.icon-box:hover .i-hover{
+    background-color: var(--color-primary-dark);
+}
+
+.social-links ul  {
   display: flex;
   list-style: none;
   gap: 2vmax;
@@ -68,14 +79,31 @@
   width: 2vmax;
 }
 
-.social-links a {
+.social-links ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
   font-size: 2vmax;
   color: var(--color-primary-dark);
   transition: 0.3s;
 }
 
-.social-links :hover {
-  color: var(--color-primary);
+.social-links a.Facebook:hover{
+  background: #1877f2;
+  color: #fff;
+}
+.social-links a.instagram:hover{
+  background: #E4405f;
+  color: #fff;
+}
+.social-links a.linkedin:hover{
+  background: #0a66c2;
+  color: #fff;
+}
+.social-links a.github:hover{
+  filter: invert(100%);
+  color: #fff;
 }
 
 .right-contents {
@@ -95,7 +123,6 @@ form {
   margin-bottom: 18px;
   color: var(--color-soft-dark);
 }
-
 
 
 .form-group input {
