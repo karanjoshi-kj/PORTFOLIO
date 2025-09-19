@@ -4,7 +4,7 @@
   background: #ffffff;
   box-shadow: 10px 10px 50px rgba(6, 5, 5, 0.1);
   width: 85%;
-  height: 50vh;
+  height: 80vh;
   border-radius: 1vmax;
   display: flex;
   justify-content: space-between;
@@ -59,19 +59,19 @@
 
 .info-item h3 {
   font-size: 1vmax;
-  color: #9f9a9a; 
+  color: #9f9a9a;
   margin-bottom: 0.1vmax;
 }
 
- .icon-box{
-    background: rgb(251, 233, 236);
+.icon-box {
+  background: rgb(251, 233, 236);
 }
 
-.icon-box:hover .i-hover{
-    background-color: var(--color-primary-dark);
+.icon-box:hover .i-hover {
+  background-color: var(--color-primary-dark);
 }
 
-.social-links ul  {
+.social-links ul {
   display: flex;
   list-style: none;
   gap: 2vmax;
@@ -89,19 +89,22 @@
   transition: 0.3s;
 }
 
-.social-links a.Facebook:hover{
+.social-links a.Facebook:hover {
   background: #1877f2;
   color: #fff;
 }
-.social-links a.instagram:hover{
+
+.social-links a.instagram:hover {
   background: #E4405f;
   color: #fff;
 }
-.social-links a.linkedin:hover{
+
+.social-links a.linkedin:hover {
   background: #0a66c2;
   color: #fff;
 }
-.social-links a.github:hover{
+
+.social-links a.github:hover {
   filter: invert(100%);
   color: #fff;
 }
