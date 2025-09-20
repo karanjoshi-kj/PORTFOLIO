@@ -435,72 +435,200 @@ nav {
 
 
 
-/* .profileImg img {
-  width: 450px; 
-  border-radius: 15px; 
-  margin-bottom: 20px; 
-} */
 
 
 
+/* ResponsiveNess Code!! | MEDIA QUEREIS */
 
+@media screen and (max-width:2160px) {
+    .profileImg {
+        width: 35vmax;
+        height: 80vh;
 
+    }
 
+    .profileImg img {
+        width: 35vmax;
+        height: inherit;
+    }
 
-/* .content {
-    max-width: 500px;
-
-}
-
-.content h1 {
-    font-size: 52px;
-    margin-bottom: 20px;
-}
-
-.content p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #1c1b1b;
-}
-
-.btn {
-    padding: 10px 25px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-.btn:hover {
-    background: #5232c1;
-}
-
-.stats {
-    display: flex;
-    gap: 40px;
-}
-
-.stat {
-    text-align: center;
-}
-
-.stat h2 {
-    font-size: 22px;
-}
-
-.stat p {
-    font-size: 14px;
-    text-align: center;
-}
-
-/* .profileImg {
-    height: ;
-    text-align: center;
+    .intro-data {
+        height: 60vh;
+    }
 
 }
 
-.profileImg img {
-    max-width: 400px;
-    border-radius: 10px;
-    border-color: bisque;
-} */
+@media screen and (max-width:1450px) {
+    .profileImg {
+        width: 30vmax;
+        height: 65vh;
+
+    }
+
+    .profileImg img {
+        width: 30vmax;
+        height: inherit;
+    }
+
+    .intro-data {
+        height: 50vh;
+    }
+
+    .stat {
+        padding: 1.5vmax 8px;
+        gap: 10px;
+        height: 7.5vmax;
+        width: 16vmax;
+        margin: 5px;
+
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .profileImg {
+        width: 27vmax;
+        height: 50vh;
+    }
+
+    .profileImg img {
+        width: 27vmax;
+        height: inherit;
+    }
+
+    .intro-data {
+        height: 50vh;
+    }
+
+    .stat {
+        padding: 1vmax 6px;
+        gap: 8px;
+        height: 6.5vmax;
+        width: 14vmax;
+        margin: 5px;
+
+    }
+
+    .superscript {
+        font-size: 15px;
+    }
+
+    .experince h1 {
+        font-size: 30px;
+    }
+
+    .stat h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1010px) {
+    .profileImg {
+        width: 20vmax;
+        height: 40vh;
+    }
+
+    .profileImg img {
+        width: 20vmax;
+        height: inherit;
+    }
+
+    .intro-data {
+        height: 50vh;
+        width: 60vw;
+    }
+
+
+}
+
+
+@media screen and (max-width:720px) {
+    .intro-sec {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5vmax;
+        padding-top: 40vmax;
+    }
+
+    .intro-data {
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profileImg {
+        width: 30vmax;
+        height: 40vh;
+        margin: 1vmax;
+    }
+
+    .profileImg img {
+        width: 30vmax;
+        height: inherit;
+    }
+
+    .intro-data {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .content h1,
+    .content p {
+        text-align: justify;
+        width: 90%;
+    }
+
+    .stat {
+
+        margin: 30px 10px;
+        padding: 0;
+
+    }
+
+    .stats {
+        padding: 0;
+        margin: 0;
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and (max-width:720px) {
+    .intro-sec {
+
+
+        padding-top: 30vmax;
+    }
+
+    .stat {
+
+        margin: 10px 10px;
+        padding: 0;
+
+
+    }
+
+    .content h1 {
+        text-align: justify;
+        width: 90%;
+        font-size: 3.5vmax;
+    }
+
+    .stats {
+
+        margin: 20px;
+        flex-direction: column;
+        margin-top: 10vmax;
+
+    }
+
+    .stat {
+        height: 10vmax;
+        padding: 1.3vmax;
+        width: 30vmax;
+    }
+
+    .profileImg {
+        margin-top: 22vmax;
+    }
+}
