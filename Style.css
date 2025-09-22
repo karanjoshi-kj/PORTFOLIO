@@ -90,7 +90,7 @@ nav {
 
 /* ----------------intro Section-------------------- */
 
-.intro-sec {
+/* .intro-sec {
     display: flex;
     align-items: center;
     padding: 5vmax;
@@ -215,7 +215,7 @@ nav {
     background: rgba(0, 128, 255, 0.429);
     color: #fff;
     border-color: rgba(0, 128, 255, 0.429);
-}
+} */
 
 /* -----------------NavBar CSS--------------- */
 nav {
@@ -540,7 +540,7 @@ nav {
 
 }
 
-
+/* 
 @media screen and (max-width:720px) {
     .intro-sec {
 
@@ -589,7 +589,7 @@ nav {
     .stats {
         padding: 0;
         margin: 0;
-        /* flex-direction: column; */
+        flex-direction: column;
     }
 }
 
@@ -631,4 +631,4 @@ nav {
     .profileImg {
         margin-top: 22vmax;
     }
-}
+}  */
